@@ -92,6 +92,11 @@ Before you can successfully run the Terraform configuration in this project, mak
     # or 
     terraform apply
     ```
-
+4. **Getting Bastion IP**\
+    Terraform is configured to output the public ip of the created bastion host. The ip will be output at the end of the `terraform apply`. It can also be fetched by using the following command (after the successful execution of the apply command)
+    ```bash
+    terraform output bastion_public_ip
+    ```
+---
 
     
