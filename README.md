@@ -64,7 +64,7 @@ Before you can successfully run the Terraform configuration in this project, mak
     ```
 2. **Initialize Terraform**
     ``` bash
-    terraform inti
+    terraform init
     ```
 3. **Provide Variables**
     Variables may be supplied using the command line as shown below:
